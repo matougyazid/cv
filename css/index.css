@@ -1,0 +1,551 @@
+html {
+  height: 100%;
+  width: 100%;
+  padding: 0%;
+  margin: 0%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  padding: 0%;
+  margin: 0%;
+  background: white;
+  display: block;
+}
+
+#warper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+tr {
+  position: relative;
+  display: block;
+  width: 49%;
+  height: 100%;
+  float: left;
+}
+
+#page-content {
+  position: relative;
+  display: block;
+  width: 100%;
+  top: 0%;
+  height: 100%;
+  border-spacing: 0;
+  transition: margin-left .5s;
+  padding: 0;
+  z-index: -16;
+}
+
+.style-mp {
+  display: inline-block;
+  position: relative;
+  color: black;
+  font-size: x-large;
+  font-style: italic;
+  border: 3px solid orange;
+  padding: 0px;
+  height: 340px;
+  width: 255px;
+  top: 54px;
+  left: 11%;
+  margin: 45px;
+}
+
+.style-pe {
+  position: relative;
+  width: 100%;
+  display: inline-block;
+  background-color: #000000c4;
+  color: white;
+  height: 37%;
+  top: 63%;
+  text-align: center;
+  cursor: pointer;
+}
+
+
+#myphoto1 {
+  background-image: url('img/myphoto1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  left: 0px;
+  grid-area: photo1;
+  top: 0px;
+}
+
+.style-pe:hover {
+  top: 0;
+  height: 100%;
+  transition-delay: 0s;
+  transition-duration: 0s;
+}
+
+#age,
+#description {
+  display: none;
+}
+.about-site ul {
+  margin: 0px;
+  padding: 0px 12px;
+  line-height: 25px;
+}
+.about-site ul li {
+  display: flow-root list-item;
+}
+#footer {
+  position: relative;
+  line-height: 11.4px;
+  height: 10%;
+  width: 57vw;
+  top: 87%;
+  grid-area: footer;
+  bottom: 0;
+}
+
+.madeBY {
+  padding: 12px;
+  margin: 0;
+  width: 100%;
+  height: 41%;
+  position: relative;
+  bottom: 10px;
+}
+
+.Nav {
+  position: fixed;
+  width: 100%;
+  height: 7%;
+  background-color: #ccf1fffa;
+}
+
+#NavBAR1 {
+  top: 0%;
+}
+
+#NavBAR2 {
+  top: 73%;
+  height: 45%;
+  position: relative;
+  display: inline-block;
+}
+
+#logo {
+  background-image: url("img/logo.png");
+  float: left;
+  background-repeat: no-repeat;
+  width: 31%;
+  cursor: context-menu;
+  padding: 0;
+  position: relative;
+  height: 100%;
+  left: 2px;
+  top: 0;
+  background-size: cover;
+}
+#sidenavopacity {
+  display: grid;
+  grid-template-areas: "photo1 photo2" "photo3 photo3";
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  position: relative;
+}
+.tr-thead {
+  width: 35%;
+  display: flex;
+}
+.btnhvr {
+  --c: rgb(255, 180, 1);
+  color: var(--c);
+  font-size: 16px;
+  border: 0.3em solid var(--c);
+  border-radius: 0.5em;
+  width: 100%;
+  height: 100%;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: sans-serif;
+  letter-spacing: 0.1em;
+  text-align: center;
+  line-height: 39px;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  transition: 0.5s;
+  background-color: rgb(44, 0, 255);
+  padding: 0% 1% 0% 1%;
+  margin: 0 0 0 1px;
+  display: block;
+  cursor: pointer;
+}
+
+.btnhvr:hover {
+  color: blue;
+}
+
+.SpanBtn {
+  position: absolute;
+  width: 25%;
+  height: 100%;
+  background-color: var(--c);
+  transform: translateY(150%);
+  border-radius: 50%;
+  left: calc((var(--n) - 1) * 25%);
+  transition: 0.5s;
+  transition-delay: calc((var(--n) - 1) * 0.1s);
+  z-index: -1;
+}
+
+.btnhvr:hover .SpanBtn {
+  transform: translateY(0) scale(2);
+}
+
+.SpanBtn:nth-child(1) {
+  --n: 1;
+}
+
+.SpanBtn:nth-child(2) {
+  --n: 2;
+}
+
+.SpanBtn:nth-child(3) {
+  --n: 3;
+}
+
+.SpanBtn:nth-child(4) {
+  --n: 4;
+}
+
+.links {
+  position: relative;
+  text-decoration: none;
+  color: unset;
+  width: 100%;
+  display: inline-block;
+  height: 100%;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+#menu:hover {
+  box-shadow: 0px 0px 10px 24px darkturquoise inset;
+  transition-delay: .1s;
+  transition-duration: .2s;
+  cursor: pointer;
+}
+
+.content {
+  width: 36vw;
+  height: 100vh;
+  position: relative;
+  display: inline-block;
+  padding: 0;
+  list-style: none;
+}
+
+* {
+  box-sizing: border-box;
+  cursor: default;
+}
+
+.hr {
+  position: relative;
+  top: -4px;
+  cursor: pointer;
+}
+
+.con {
+  width: 32.04%;
+  margin: 0px 0px 0px 0px;
+  right: 0;
+  padding: 0px;
+  top: 7%;
+  height: 86%;
+}
+
+table,
+tr,
+td {
+  border-collapse: collapse;
+  border-spacing: 0px;
+}
+
+/* The side navigation menu */
+#NavBAR2 {
+  top: 100vh;
+  height: 45%;
+  position: relative;
+}
+
+#myinfo {
+  width: 62%;
+}
+.tr-tfoot {
+  width: 100vw;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  display: grid;
+  grid-template-areas: "about footer contact";
+}
+.sidenav {
+  height: 100%;
+  width: 40vw;
+  position: relative;
+  z-index: 1;
+  background-color: unset;
+  overflow-x: hidden;
+  padding-top: 0;
+  transition: 0.5s;
+  float: right;
+  display: flex;
+}
+
+/* The navigation menu links */
+.sidenav .menulinks {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav .menulinks:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.closebtn {
+  cursor: pointer;
+  height: 31%;
+  width: 12%;
+  line-height: 28px;
+  text-align: center;
+  top: 20px;
+  right: 20px;
+  color: azure;
+}
+
+.closebtn:hover {
+  box-shadow: 0px 0px 7px 2px yellow inset;
+  border-radius: 100%;
+  font-size: x-large;
+  color: red;
+}
+
+#closebtn {
+  top: 13px;
+  font-size: 52px;
+  right: 14px;
+  height: 35px;
+  margin: 0;
+  width: 34px;
+  position: relative;
+  float: right;
+  text-align: center;
+  line-height: 34px;
+  color: white;
+}
+
+#closebtn:hover {
+  font-size: 2.5em;
+  text-transform: lowercase;
+  border-radius: 100%;
+  box-shadow: 0px 0px 10px 3px azure inset;
+  color: cornflowerblue;
+}
+
+.btn {
+  background-color: #09c4e2;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.close {
+  float: right;
+  top: 0;
+  position: relative;
+  display: none;
+}
+
+#menu {
+  width: 39px;
+  height: 39px;
+  display: none;
+  position: relative;
+  padding: 4px;
+  top: 4px;
+  right: 2px;
+  border: 1px solid gray;
+  box-shadow: 0px 0px 1px 2px black;
+  border-radius: 5px;
+  float: right;
+}
+
+.menuElem {
+  display: none;
+}
+
+#Elem11 {
+  display: none;
+}
+
+#myinfo {
+  border: 11px groove aquamarine;
+  background-color: aliceblue;
+  top: 7vh;
+  width: 63vw;
+  grid-area: photo2;
+  float: right;
+  height: 93vh;
+}
+
+.about-site {
+  margin: 68px 142px;
+  height: 31vh;
+  top: 0px;
+  position: relative;
+  padding: 17px;
+  border: 11px groove aquamarine;
+  font-size: larger;
+  background-color: aliceblue;
+  width: 29%;
+  line-height: 52px;
+}
+
+.infoTXT {
+  margin: 11px;
+  padding: 16px;
+  letter-spacing: 2px;
+  font-style: oblique;
+}
+
+#myinfo1 {
+  top: 0;
+  width: 100%;
+  height: 78%;
+  position: relative;
+  grid-area: photo3;
+  display: flex;
+}
+
+.title {
+  position: relative;
+  list-style: none;
+  border: 4px groove aquamarine;
+  transform: translate(5px, -43px);
+  background-color: cornsilk;
+  text-align: center;
+  width: 61%;
+  color: blueviolet;
+  top: 4px;
+  left: -23px;
+}
+
+.about {
+  width: 16vw;
+  position: relative;
+  float: left;
+  height: 28vh;
+  margin: 14px;
+  padding: 27px;
+  line-height: 31px;
+  grid-area: about;
+}
+
+.contact {
+  float: right;
+  position: relative;
+  width: 20vw;
+  height: 100%;
+  grid-area: contact;
+}
+
+.contact-form {
+  margin: 0;
+  height: 100%;
+  padding: 19px;
+  position: relative;
+}
+
+.elem-group {
+  width: 100%;
+  height: 21%;
+  display: grid;
+}
+
+.e-g {
+  width: 96%;
+  border-radius: 7px;
+  cursor: auto;
+}
+
+.sbmt-btn {
+  bottom: -16px;
+  position: relative;
+  width: 59%;
+  border-radius: 18px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.sbmt-btn:hover {
+  box-shadow: 0px 0px 8px 1px aqua inset;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+.about-group {
+  position: relative;
+}
+
+/* to top btn */
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 2px;
+  right: -46px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+#myBtn:hover {
+  background-color: #555;
+  right: 0px;
+}
+#goup {
+  position: relative;
+  left: 78vw;
+}

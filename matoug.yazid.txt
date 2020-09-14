@@ -1,0 +1,20 @@
+matoug yazid 
+groupe : 10 .
+
+
+mon site contient 9 pages et chaque page associée a un fichier css externe et javascript.
+et 4 fichier php pour transférer des donnée entre le site et la base de données .
+et fichier contient 32 photos pour le gallery .
+et chaque page contient des commentaires sur le travail effectué .
+la langue de site est l'anglais .
+
+index.php est la page d'accueil .
+home.php est la page home .
+join-us.php est la page d'nscription .
+my-cv.php est ma page de cv .
+photos.php est la page de gallery .
+commmenrs.php est la pag des commentaires .
+
+connect.php pour connect a la base de donnee .
+register_test pour envoyer les données du nouvel utilisateur a la base de donées .
+login_test.php pour que l'utilisateur puisse entrer .

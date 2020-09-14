@@ -1,0 +1,324 @@
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  background: white;
+  color: #000;
+  top: -7px;
+  left: 0px;
+}
+#myinfo {
+  width: 100%;
+  padding: 18px;
+  font-size: xx-large;
+}
+.fasil {
+  transform: rotate(90deg);
+  width: 61em;
+  top: 156vh;
+  position: relative;
+}
+
+#warper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  top: -11px;
+  font-size: 110%;
+}
+
+.thead-elements {
+  position: relative;
+  display: table-cell;
+  width: 10%;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+#names,
+#contact {
+  width: 41%;
+  height: 197px;
+  background-image: url('cv-img.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.my-name,
+.cntct {
+  width: 82%;
+}
+
+.cntct {
+  float: inline-end;
+  margin: 11px;
+}
+
+#name {
+  top: -22px;
+  position: relative;
+  text-align: left;
+  padding-left: 161px;
+  width: 61%;
+}
+
+#surname {
+  padding-left: 20px;
+}
+
+#top-info {
+  position: relative;
+  width: 100%;
+  display: inline-block;
+  height: 217px;
+  border-spacing: 0;
+}
+
+#page-content {
+  position: relative;
+  width: 101%;
+  height: 100%;
+  display: block;
+}
+
+.TR-TB {
+  position: relative;
+  width: 98.8%;
+  display: block;
+  height: 200px;
+}
+
+.my-information {
+  position: relative;
+  width: 50.2%;
+  height: 100%;
+  display: block;
+  padding: 20px 0px 0px 93px;
+}
+
+.info-style {
+  position: relative;
+  width: 96.4%;
+  height: 100%;
+  margin: 1px;
+  padding: 10px 24px 10px 24px;
+  text-align: justify;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  overflow-y: scroll;
+  height: 100%;
+  overflow-x: hidden;
+  cursor: context-menu;
+  scroll-behavior: smooth;
+}
+
+#top-photo {
+  position: relative;
+  border: 5px solid white;
+  border-radius: 100%;
+  width: 216px;
+  height: 195px;
+  background: url('img/myphoto1.jpg');
+  background-size: cover;
+  background-position: 207px;
+}
+#toback {
+  position: relative;
+  width: 10%;
+  height: 14%;
+  border-radius: 15px;
+  float: left;
+  left: 14px;
+  top: -36px;
+  background-color: white;
+  color: black;
+}
+
+.linkback {
+  text-decoration: none;
+  cursor: pointer;
+  width: 100%;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  height: 100%;
+  line-height: 21px;
+}
+.lng {
+  display: table-row;
+  text-align: center;
+  position: relative;
+}
+.skills {
+  position: relative;
+  display: inline-block;
+  width: 49%;
+  background-color: #ddd;
+  translate: 10em -33px;
+}
+.my-skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+#Arabic {
+  width: 97%;
+  background-color: green;
+}
+#English {
+  width: 80%;
+  background-color: red;
+}
+#Francais {
+  width: 60%;
+  background-color: blue;
+}
+.my-info {
+  width: 51%;
+  padding: 0em 1em 0em 1em;
+  text-align: center;
+  transform: translate(34.9em,-11.35em);
+}
+.prgrm {
+  display: table-row;
+  text-align: center;
+  position: relative;
+}
+.tr-tbody4 {
+  height: 18.8em;
+}
+#made-by {
+  position: relative;
+  width: 100%;
+  display: block;
+  height: 5em;
+}
+.tr-tfoot {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+#footer {
+  transform: translate(27em , 7.6em);
+}
+#html {
+  width: 89%;
+  background: aqua;
+}
+#css {
+  width: 78%;
+  background: cadetblue;
+}
+#javascript {
+  width: 67%;
+  background: deepskyblue;
+}
+#php {
+  width: 41%;
+  background: darkblue;
+}
+#sql {
+  width: 23%;
+  background: cornflowerblue;
+}
+#vsc {
+  width: 93%;
+  background: brown;
+}
+#xmp {
+  width: 74%;
+  background: coral;
+}
+#cs6 {
+  width: 64%;
+  background: darkgoldenrod;
+}
+abbr {
+  text-decoration: none;
+}
+.school {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 25%;
+}
+details>summary {
+  border: none;
+  box-shadow: 1px 1px 2px #bbbbbb;
+  cursor: pointer;
+  padding: 4px;
+}
+details>p {
+  padding: 8px 44px 8px 8px;
+  margin: 0;
+  box-shadow: 1px 1px 2px #bbbbbb;
+  height: auto;
+  position: relative;
+  display: block;
+  background-color: #ccebec;
+}
+.schools {
+  position: relative;
+  margin: 0;
+  width: 100%;
+  display: contents;
+}
+#info-study3 {
+  top: -39%;
+}
+#info-study4 {
+  top: -44%;
+}
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 17px;
+}
+#myBtn:hover {
+  background-color: #555;
+}
+#rss1 {
+  background-image: url('./img/facebook.png');
+}
+.reseaux-sociaux-style {
+  position: relative;
+  width: 5vw;
+  height: 8vh;
+  display: list-item;
+  list-style: none;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  margin: 1.4vh 1vw;
+}
+#rss2 {
+  background-image: url('./img/instagram.png');
+}
+.reseaux-sociaux-style:hover {
+  width: 28%;
+  transition: all ease-in-out .1s;
+}
+#rss3 {
+  background-image: url('./img/twitter.png');
+}

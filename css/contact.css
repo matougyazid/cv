@@ -1,0 +1,96 @@
+html {
+  background-color: black;
+  color: white;
+  overflow-x: hidden;
+}
+form {
+  margin: 48px;
+}
+div.elem-group {
+    margin: 40px 0;
+    width: 80%;
+}
+
+label {
+    display: block;
+    font-family: 'Aleo';
+    padding-bottom: 4px;
+    font-size: 1.25em;
+}
+
+input, select, textarea {
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 1.25em;
+    font-family: 'Aleo';
+    width: 100%;
+    padding: 8px;
+}
+
+textarea {
+    height: 250px;
+}
+
+button {
+    height: 50px;
+    background: green;
+    color: white;
+    border: 2px solid darkgreen;
+    font-size: 1.25em;
+    font-family: 'Aleo';
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    border: 2px solid black;
+}
+
+/* contact form */
+input[type=text],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  align-content: center;
+}
+
+input[type=submit] {
+  background-color: #09c4e2;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #177d8e;
+}
+
+#contact {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  position: fixed;
+  width: 97%;
+  height: 94%;
+}
+table ,tbody ,tr ,td {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: block;
+}
+.back-btn {
+  position: fixed;
+  display: block;
+  right: 1vw;
+}
